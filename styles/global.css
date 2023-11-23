@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url(./menu.css);
+
+:root{
+  --White: #fff;
+  --Morado-Claro: #EDEEFF
+  --Black: #1B1C37;
+  --Black-Lineal: #1B1C37;
+  --Black-Light: #5F6073;
+  --Purple: #7579FF;
+  --Morado: #7579FF;
+  --Purple-Gradient: 
+  linear-gradient(90deg, #B224EF 0%, #7579FF 100%);
+  --Degrade: linear-gradient(90deg, #B224EF 0%, #7579FF 100%);
+
+}
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: poppins;
+}
