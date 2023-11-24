@@ -1,0 +1,108 @@
+/*Layout*/
+.header {
+  width: 90vw;
+  height: 6vh;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 0 auto;
+  padding: 20px 40px;
+  margin-top: 99px;
+
+  border-radius: 14.422px;
+  background: var(--Black, #1B1C37);
+}
+
+.menu-container {
+  display: flex;
+  gap: 28px;
+}
+
+.author-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/*Styles*/
+.author {
+  border-radius: 18px;
+  width: 36.994px;
+  height: 36.91px;
+  flex-shrink: 0;
+}
+
+.author-name {
+  color: var(--White, #FFF);
+  font-family: Poppins;
+  font-size: 1.082rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.menu-item {
+  color: var(--White, #FFF);
+  font-family: Poppins;
+  font-size: 1.082rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.btn-contact {
+  padding: 4.653px 20.056px;
+  border-radius: 8.653px;
+  border: 1px solid #7579FF;
+  background: var(--Purple, #7579FF);
+  color: var(--White, #FFF);
+  cursor: pointer;
+  font-family: Poppins;
+  font-size: 17.307px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-align: center;
+}
+
+.menu-mobile {
+  background: transparent;
+  cursor: pointer;
+  display: none;
+  border-radius: 4px;
+}
+
+.menu-button {
+  width: 32px;
+  height: 10px;
+  flex-shrink: 0;
+}
+
+.btn-contact:hover{
+  background: transparent;
+  transition: 0.8s;
+  color: #ccc;
+ }
+ .menu-item:hover {
+   color: #ccc;
+   transition: all 0.2s;
+ }
+
+@media screen and (max-width: 820px) {
+  html{
+    font-size: 12px;
+  }
+  .menu-item {
+    display: none;
+  }
+
+  .btn-contact {
+    display: none;
+  }
+
+  .menu-mobile {
+    display: block;
+  }
+}
